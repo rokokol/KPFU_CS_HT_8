@@ -5,7 +5,7 @@ namespace HT
     {
         public string text;
         public DateTime time = DateTime.Now;
-        public Employee executor; 
+        public Employee executor;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="T:HT.Report"/> class.

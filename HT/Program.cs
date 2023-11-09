@@ -17,16 +17,16 @@ namespace HT
             Console.WriteLine("Создаем уникальные задачи");
             List<Task> tasks = new List<Task>
             {
-                new Task("Пить чай", deadline, tema),
-                new Task("Красить кнопки", deadline, tema),
-                new Task("Купить васяну новую машину", DateTime.Now.AddDays(1), tema),
-                new Task("Еще красить кнопки", deadline, tema),
-                new Task("Красить больше кнопой", deadline, tema),
-                new Task("Выкинуть все кофе из квартиры и купить чай", deadline, tema),
-                new Task("Написать сортировку пузырьком для массива из 1000000000000 элементов", deadline, tema),
-                new Task("Написать сортировку рандомом для массива из 10^10 элементов", deadline, tema),
-                new Task("Покрасить еще одну кнопку", deadline, tema),
-                new Task("Поныть что сложно", deadline, tema)
+                new Task("Пить чай", deadline, tema, Task.Period.Monthly, 0),
+                new Task("Красить кнопки", deadline, tema, Task.Period.None, 0),
+                new Task("Купить васяну новую машину", DateTime.Now.AddDays(1), tema, Task.Period.None, 0),
+                new Task("Еще красить кнопки", deadline, tema, Task.Period.None, 0),
+                new Task("Красить больше кнопой", deadline, tema, Task.Period.None, 0),
+                new Task("Выкинуть все кофе из квартиры и купить чай", deadline, tema, Task.Period.None, 0),
+                new Task("Написать сортировку пузырьком для массива из 1000000000000 элементов", deadline, tema, Task.Period.None, 0),
+                new Task("Написать сортировку рандомом для массива из 10^10 элементов", deadline, tema, Task.Period.None, 0),
+                new Task("Покрасить еще одну кнопку", deadline, tema, Task.Period.None, 0),
+                new Task("Поныть что сложно", deadline, tema, Task.Period.Custom, 6)
             };
 
             Console.WriteLine("Создаем проект");
