@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{381A368C-6167-47D2-A2EC-B30206CBCECE}|Default">
+  <MonoDevelop.Ide.ItemProperties.Tymakov PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tymakov/AccountType.cs">
+    <Files>
+      <File FileName="Tymakov/Program.cs" Line="81" Column="56" />
+      <File FileName="Tymakov/AccountType.cs" Line="102" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HT" expanded="True">
+            <Node name="HT" expanded="True" />
+            <Node name="Tymakov" expanded="True">
+              <Node name="AccountType.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HT PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
